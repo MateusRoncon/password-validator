@@ -7,9 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
 
-import static br.com.passwordValidator.util.Messages.NO_DIGIT_ERROR;
 import static br.com.passwordValidator.util.Messages.NO_SPACES_BETWEEN_ERROR;
-import static br.com.passwordValidator.util.RegexConstants.HAS_DIGIT_REGEX;
 import static br.com.passwordValidator.util.RegexConstants.HAS_SPACE_BETWEEN_REGEX;
 
 @Component
